@@ -37,16 +37,17 @@ namespace ClinicalMaestro
                 switch (choice)
                 {
                     case 1:
-                        
-                        break;
+                        Problem1 problem1 = new Problem1();
+                        problem1.Start();
+                        return ;
+                        // break;
 
                     case 2:
-
+                    
                         break;
 
                     default:
                         exit = true;
-
                         break;
                 }
                 if (exit) break;

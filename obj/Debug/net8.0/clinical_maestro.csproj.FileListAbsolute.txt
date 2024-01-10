@@ -1,0 +1,14 @@
+/Users/nabil.alhafez/clinical_maestro /bin/Debug/net8.0/clinical_maestro
+/Users/nabil.alhafez/clinical_maestro /bin/Debug/net8.0/clinical_maestro.deps.json
+/Users/nabil.alhafez/clinical_maestro /bin/Debug/net8.0/clinical_maestro.runtimeconfig.json
+/Users/nabil.alhafez/clinical_maestro /bin/Debug/net8.0/clinical_maestro.dll
+/Users/nabil.alhafez/clinical_maestro /bin/Debug/net8.0/clinical_maestro.pdb
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.AssemblyInfoInputs.cache
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.AssemblyInfo.cs
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.csproj.CoreCompileInputs.cache
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.dll
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/refint/clinical_maestro.dll
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.pdb
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/clinical_maestro.genruntimeconfig.cache
+/Users/nabil.alhafez/clinical_maestro /obj/Debug/net8.0/ref/clinical_maestro.dll

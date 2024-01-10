@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nabil.alhafez/clinical_maestro /clinical_maestro.csproj": {}
+    "/Users/nabil.alhafez/ClinicalMaestro/clinical_maestro.csproj": {}
   },
   "projects": {
-    "/Users/nabil.alhafez/clinical_maestro /clinical_maestro.csproj": {
+    "/Users/nabil.alhafez/ClinicalMaestro/clinical_maestro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nabil.alhafez/clinical_maestro /clinical_maestro.csproj",
+        "projectUniqueName": "/Users/nabil.alhafez/ClinicalMaestro/clinical_maestro.csproj",
         "projectName": "clinical_maestro",
-        "projectPath": "/Users/nabil.alhafez/clinical_maestro /clinical_maestro.csproj",
+        "projectPath": "/Users/nabil.alhafez/ClinicalMaestro/clinical_maestro.csproj",
         "packagesPath": "/Users/nabil.alhafez/.nuget/packages/",
-        "outputPath": "/Users/nabil.alhafez/clinical_maestro /obj/",
+        "outputPath": "/Users/nabil.alhafez/ClinicalMaestro/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nabil.alhafez/.nuget/NuGet/NuGet.Config"

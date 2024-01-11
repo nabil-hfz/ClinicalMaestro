@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClinicalMaestro.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f685c3ef2a0302a1faad5a6a9dda96526b98d594")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bd7ea613f698e781cd21e91969a89bd62f9f0c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClinicalMaestro.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClinicalMaestro.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

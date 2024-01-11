@@ -7,7 +7,7 @@ namespace ClinicalMaestro
         }
 
         // This method starts the process.
-        internal void Start()
+        public void Start()
         {
             // Get a non-negative integer from the user.
             long num = GetInt();
@@ -15,14 +15,12 @@ namespace ClinicalMaestro
             // Calculate the highest possible number by rearranging its digits.
             long result = GetHighestPossibleNumber(num);
 
-            // Output the result to the console.
             Console.WriteLine("Highest Possible Number is " + result);
         }
 
         // Method to rearrange the digits of a number to form the highest possible number.
-        internal long GetHighestPossibleNumber(long num)
+        public long GetHighestPossibleNumber(long num)
         {
-            // Initialize result to store the final number.
             long result = 0;
 
             // Array to keep track of the count of each digit (0-9).
@@ -54,7 +52,7 @@ namespace ClinicalMaestro
         }
 
         // Method to get a non-negative integer input from the user.
-        internal long GetInt()
+        public long GetInt()
         {
             while (true)
             {
@@ -73,7 +71,6 @@ namespace ClinicalMaestro
                 }
                 catch (FormatException)
                 {
-                    // If input is not a valid integer, display an error message.
                     Console.WriteLine("The input is not a valid integer.");
                 }
             }

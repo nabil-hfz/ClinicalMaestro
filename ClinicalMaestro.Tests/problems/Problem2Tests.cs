@@ -1,82 +1,66 @@
-// namespace ClinicalMaestro
-// {
-//     class Problem1
-//     {
-//          public Problem1()
-//         {
-//         }
+using ClinicalMaestro;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-//         // This method starts the process.
-//         public void Start()
-//         {
-//             // Get a non-negative integer from the user.
-//             long num = GetInt();
 
-//             // Calculate the highest possible number by rearranging its digits.
-//             long result = GetHighestPossibleNumber(num);
+namespace ClinicalMaestro.Tests
+{
+    [TestClass]
+    public class Problem2Tests
+    {
+        private Problem2 problem2;
 
-//             // Output the result to the console.
-//             Console.WriteLine("Highest Possible Number is " + result);
-//         }
+        [TestInitialize]
+        public void SetUp()
+        {
+            problem2 = new Problem2();
+        }
 
-//         // Method to rearrange the digits of a number to form the highest possible number.
-//         long GetHighestPossibleNumber(long num)
-//         {
-//             // Initialize result to store the final number.
-//             long result = 0;
+        [TestMethod]
+        public void TestWithRegularSentence()
+        {
+            string input = "The sunset sets at twelve o' clock.";
+            string expected = "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11";
+            Assert.AreEqual(expected, problem2.ConvertToAlphabetPosition(input));
+        }
 
-//             // Array to keep track of the count of each digit (0-9).
-//             int[] numbers = new int[10];
+        [TestMethod]
+        public void TestWithAllUppercaseLetters()
+        {
+            string input = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string expected = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26";
+            Assert.AreEqual(expected, problem2.ConvertToAlphabetPosition(input));
+        }
 
-//             // Break down the number into digits and count the occurrence of each digit.
-//             while (num != 0)
-//             {
-//                 var rest = (int)(num % 10);
-//                 numbers[rest]++;
-//                 num /= 10;
-//             }
+        [TestMethod]
+        public void TestWithAllLowercaseLetters()
+        {
+            string input = "abcdefghijklmnopqrstuvwxyz";
+            string expected = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26";
+            Assert.AreEqual(expected, problem2.ConvertToAlphabetPosition(input));
+        }
 
-//             // Multiplier used for placing digits at the correct position in the result.
-//             long multiplier = 1;
+        [TestMethod]
+        public void TestWithNumbersAndSymbols()
+        {
+            string input = "123!@#abcXYZ";
+            string expected = "1 2 3 24 25 26";
+            Assert.AreEqual(expected, problem2.ConvertToAlphabetPosition(input));
+        }
 
-//             // Construct the largest number by adding the highest digits first.
-//             for (int i = 0; i < 10; i++)
-//             {
-//                 // Add each digit the number of times it appears.
-//                 while (numbers[i] > 0)
-//                 {
-//                     result += multiplier * i;
-//                     multiplier *= 10;
-//                     numbers[i]--;
-//                 }
-//             }
-//             return result;
-//         }
+        [TestMethod]
+        public void TestWithEmptyString()
+        {
+            string input = "";
+            string expected = "";
+            Assert.AreEqual(expected, problem2.ConvertToAlphabetPosition(input));
+        }
 
-//         // Method to get a non-negative integer input from the user.
-//         long GetInt()
-//         {
-//             while (true)
-//             {
-//                 try
-//                 {
-//                     // Prompt the user to enter a number.
-//                     Console.WriteLine("Please, enter non-negative number:");
-
-//                     // Read and parse the user input.
-//                     string input = Console.ReadLine();
-//                     long choice = long.Parse(input);
-
-//                     // Check if the number is non-negative.
-//                     if (choice >= 0)
-//                         return choice;
-//                 }
-//                 catch (FormatException)
-//                 {
-//                     // If input is not a valid integer, display an error message.
-//                     Console.WriteLine("The input is not a valid integer.");
-//                 }
-//             }
-//         }
-//     }
-// }
+        [TestMethod]
+        public void TestWithAlphabetString()
+        {
+            string input = "abcdefghijklmnopqrstuvwxyz";
+            string expected = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26";
+            Assert.AreEqual(expected, problem2.ConvertToAlphabetPosition(input));
+        }
+    }
+}

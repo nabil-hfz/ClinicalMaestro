@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicalMaestro", "ClinicalMaestro\ClinicalMaestro.csproj", "{EA549ABF-9075-4418-BCB7-C3D9423B1D67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicalMaestro.Tests", "ClinicalMaestro.Tests\ClinicalMaestro.Tests.csproj", "{30F52AAA-E2BE-4DE4-B1F7-8F39BEA6090E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA549ABF-9075-4418-BCB7-C3D9423B1D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA549ABF-9075-4418-BCB7-C3D9423B1D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA549ABF-9075-4418-BCB7-C3D9423B1D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA549ABF-9075-4418-BCB7-C3D9423B1D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F52AAA-E2BE-4DE4-B1F7-8F39BEA6090E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F52AAA-E2BE-4DE4-B1F7-8F39BEA6090E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F52AAA-E2BE-4DE4-B1F7-8F39BEA6090E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F52AAA-E2BE-4DE4-B1F7-8F39BEA6090E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6C2A7F0-9BA1-4F8A-9992-53C1DB8F2491}
+	EndGlobalSection
+EndGlobal

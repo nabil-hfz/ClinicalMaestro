@@ -67,8 +67,4 @@ public class ProgramsTests
         // Assert
         Assert.AreEqual(3, result);
     }
-
-
-
-
 }

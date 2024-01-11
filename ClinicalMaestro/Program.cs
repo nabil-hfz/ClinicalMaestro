@@ -9,15 +9,15 @@ namespace ClinicalMaestro
 
             // try
             // {
-                Console.WriteLine("Problems menu:");
-                Console.WriteLine("1- Highest Possible Number");
-                Console.WriteLine("2- Alphabet Position");
-                Console.WriteLine("3- Exit");
-                Console.WriteLine("Please, enter problem number:");
+            Console.WriteLine("Problems menu:");
+            Console.WriteLine("1- Highest Possible Number");
+            Console.WriteLine("2- Alphabet Position");
+            Console.WriteLine("3- Exit");
+            Console.WriteLine("Please, enter your choice:");
 
-                string input = inputProvider();
-                int choice = int.Parse(input);
-                if (choice >= 1 && choice <= 3) return choice;
+            string input = inputProvider();
+            int choice = int.Parse(input);
+            if (choice >= 1 && choice <= 3) return choice;
             // }
             // catch (FormatException)
             // {
@@ -42,8 +42,10 @@ namespace ClinicalMaestro
                     // break;
 
                     case 2:
-
-                        break;
+                        Problem2 problem2 = new Problem2();
+                        problem2.Start();
+                        return;
+                        // break;
 
                     default:
                         exit = true;
